@@ -1,0 +1,454 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(32, 63, 32);
+    padding: 10px 0;
+}
+
+.search-input input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: rgb(32, 63, 32);
+    
+}
+
+.search-input .fa-magnifying-glass {
+    color: white;
+    position: relative;
+    right: 20px;
+    font-size: 15px;
+}
+
+::placeholder{
+    color: white;
+    font-size: 14px;
+}
+
+.company-icon img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.right-header-section{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+
+}
+
+.right-header-section > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+ 
+}
+
+
+.right-header-section .fa-heart {
+    color: red;
+    font-size: 25px;
+  
+}
+
+
+
+.right-header-section .heart-count,
+.right-header-section .cart-count {
+ border: 1px solid white;
+ width: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50%;
+ color: white;
+ background-color: rgb(126, 177, 51);
+}
+
+.heart-count {
+    position: relative;
+    bottom: 34px;
+    left: 10px;
+}
+
+.cart-count {
+    position: relative;
+    bottom: 57px;
+    left: 67px;
+
+}
+
+.fa-cart-shopping {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+}
+
+.nav-links-container{
+    height: 50px;
+    width: 100%;
+}
+
+.nav-links-container > ul {
+    display: flex;
+    list-style: none;
+    width: 1200px;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+    left: 10rem;
+
+}
+
+.nav-links-container ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.american-food-container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.american-food-container > .left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-section .left-section-heading, .left-section-text{
+    color: green;
+}
+
+.left-section .left-section-heading > h1 {
+    font-size: 50px;
+   
+}
+
+.left-section .left-section-heading > p {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.left-section-text > p {
+    font-size: 22px;
+}
+
+.left-section-btn button {
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin: 0 20px;
+    border: none;
+    outline: none;
+}
+
+.american-food-container > .right-section img {
+    width: 700px;
+    height: 400px;
+    
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.about-us-heading,
+.service-container-header {
+    text-align: center;
+    margin: 30px 0;
+
+
+}
+
+.about-us-heading > h1,
+.service-container-header > h1{
+    font-size: 40px;
+    color: green;
+    letter-spacing: 2px;
+    
+}
+
+.about-us-heading > p,
+.service-container-header > p {
+    font-size: 20px;
+    color: green;
+}
+
+.about-container .col-1 > .left-section,
+.about-container .col-2 > .left-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-container .col-1,
+.about-container .col-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+   
+}
+
+.about-container .col-1 img,
+.about-container .col-2 img {
+    border-radius: 20px;
+}
+
+.provided-services-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.provided-services-details .right-section > img{
+    width: 22rem;
+}
+
+.provided-services-details > .row{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.row > .left-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: green;
+    padding: 10px 20px;
+}
+
+.row  .left-section h1,
+.row  .left-section span {
+    display: inline;
+    font-size: 30px;
+}
+
+.row  .left-section p {
+    font-size: 20px;
+    width: 30rem;
+}
+
+.row  .left-section > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sale-coupon-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 40px;
+}
+.sale-coupon-container > .left-section {
+    width: 40%;
+ 
+}
+
+.sale-coupon-container .right-section img {
+    width: 50rem;
+    height: 500px;
+    position: relative;
+    right: 100px;
+}
+
+.left-section > .discount-details-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.discount-details-container .left-section-heading p{
+    letter-spacing: 7px;
+}
+
+.pricing-deals-container{
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+    position: relative;
+    left: 300px;
+}
+
+
+.card .card-header {
+    height: 200px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+}
+
+.card-header  h1{
+    font-size: 27px;
+    
+}
+
+.card-header  p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card .menu-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: gainsboro;
+    align-items: center;
+
+}
+
+.card .menu-list li {
+    list-style: none;
+    font-size: 20px;
+    margin: 20px 0;
+    color: green;
+    font-weight: bold;
+
+}
+
+.pricing-container-header,
+.blog-header-container {
+    text-align: center;
+    margin: 50px 0;
+    color: green;
+}
+
+.pricing-container-header > h1,
+.blog-header-container h1  {
+    font-size: 40px;
+}
+
+
+.pricing-container-header > p,
+.blog-header-container p {
+    font-size: 18px;
+}
+
+.blog-details-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+  
+}
+
+.blog-img-container > img {
+    width: 18rem;
+    height: 16rem;
+    cursor: pointer;
+}
+
+.blog-details{
+    width: 18rem;
+    padding: 20px;
+    background-color: lightgray;
+    color: green;
+      cursor: pointer;
+
+}
+
+.read-more-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.read-more-btn button{
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 12px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin: 5px 20px;
+    border: none;
+    outline: none;
+}
+
+
+.footer-container{
+    height: 400px;
+    border: 1px solid green;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-logo img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.footer-heading{
+    color: white;
+
+}
+.footer-heading > h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+
+.footer-heading > p {
+    font-size: 25px;
+}
+
+.social-media-icons{ 
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    position: relative;
+    left: 56rem;
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.website-url-container p {
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
